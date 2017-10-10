@@ -5,6 +5,7 @@ module.exports = function () {
   return {
     files: [
       {pattern: 'src/**/*.ts', load: false},
+      {pattern: 'src/**/*.tsx', load: false},
       {pattern: 'src/**/*.test.ts', ignore: true}
     ],
 
